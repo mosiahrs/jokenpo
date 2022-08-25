@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>jokenPO</title>
+</head>
+
+<body>
+    <main>
+        <figure>
+            <img src="assets/titulo.png" width="180">
+        </figure>
+        <section id="Player1" class="player">
+            <h1>Player 1</h1>
+            <select name="player1Options" id="player1Options">
+                <option>pedra</option>
+                <option>papel</option>
+                <option>tesoura</option>
+            </select>
+        </section>
+        <section id="Player2" class="player">
+            <h1>(CPU)</h1>
+            <span id="player2Result"></span>
+        </section>
+        <button id="playBtn" onclick="gameRule()">JOGAR</button>
+        <section id="result">
+        </section>
+        <div>
+            <button class="ocultar" id="restartBtn" onclick="resetGame()"><i
+                    class="fa-solid fa-arrow-rotate-left"></i></button>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
