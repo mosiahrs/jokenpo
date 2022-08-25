@@ -55,11 +55,10 @@ function gameRule() {
         result.textContent = 'Player 1 venceu!!';
         ocultarMostrarBtn();
 
-    } else if (player2Value == player1.value ) {
+    }else{
+        player2.innerHTML = ` O CPU selecionou ${player1.value} `;
         result.textContent = 'Empate! Ninguem venceu!!';
         ocultarMostrarBtn();
-    }else{
-        result.textContent = 'BUG DO MILENIO!!';
     }
 }
 
