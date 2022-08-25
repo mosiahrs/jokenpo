@@ -56,7 +56,7 @@ function gameRule() {
         ocultarMostrarBtn();
 
     }else{
-        player2.innerHTML = ` O CPU selecionou ${player1.value} `;
+        player2.innerHTML = ` <p> ${player1.value} </p> `;
         result.textContent = 'Empate! Ninguem venceu!!';
         ocultarMostrarBtn();
     }
