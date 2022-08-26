@@ -12,7 +12,7 @@
 ## Como Funciona ?
 Caso você não saiba, jokenpô é um jogo em que as pessoas jogam com as mãos, escolhendo entre pedra, papel e tesoura. E funciona assim: a tesoura corta o papel, mas quebra com a pedra; o papel embrulha a pedra, mas é cortado pela tesoura e a pedra quebra a tesoura e é embrulhada pelo papel.
 
-Esse jogo foi desenvolvido para exercitar a criação de estruturas de decisão, manipulação do DOM. Num primeiro momento o jogo contará com recurso de 
+Esse jogo foi desenvolvido para exercitar a criação de estruturas de decisão, manipulação do DOM e aleatoriedade. 
 
 
 ## 🔗 Link da Aplicação: 
