@@ -29,10 +29,11 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Definir função core
-- [ ] Criar o layout para dispositivos móveis
+- [x] Individualização das Execuções
+- [x] Criar loop de funcionamento
 - [ ] Implementação de imagens
-- [ ] Individualização das Execuções
-- [ ] Criar loop de funcionamento
+- [ ] Criar o layout para dispositivos móveis
+
 
 
 ## 📫 Contribuindo para <nome_do_projeto>
